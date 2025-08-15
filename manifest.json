@@ -1,10 +1,11 @@
 {
   "name":"Chill & Retro",
   "short_name":"CnR",
+  "lang":"en",
   "start_url":"/index.html",
-  "background_color":"#111122",
-  "theme_color":"#111122",
-  "orientation":"landscape",
+  "background_color":"#112",
+  "theme_color":"#112",
+  "orientation":"landscape-primary",
   "display":"fullscreen",
   "icons":[
     {
