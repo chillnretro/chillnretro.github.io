@@ -1,7 +1,7 @@
 {
   "name":"Chill & Retro",
   "short_name":"CnR",
-  "lang":"en",
+  "lang":"en-US",
   "start_url":"/index.html",
   "background_color":"#112",
   "theme_color":"#112",
