@@ -32,7 +32,11 @@
 			<div class="copyrights">This website isn't affiliated to Lofi Girl Inc. All rights reserved to <a href="https://www.lofigirl.com">Lofi Girl Inc.</a></div>
 		</div>
 		<script>
-			navigator.serviceWorker.register('/serviceWorker.js')
+			window.addEventListener('load', () => {
+				if ("serviceWorker" in navigator) {
+					navigator.serviceWorker.register('/serviceWorker.js')
+				}
+			})
 		</script>
 	</body>
 </html>
